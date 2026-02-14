@@ -214,7 +214,7 @@ def main():
         
         st.markdown("---")
         st.header("Links")
-        st.markdown("[GitHub Repository](https://github.com/jjayakrishnan/2025aa05072_ml_assignment2)")
+        st.markdown("[GitHub Repository](https://github.com/jjayakrishnan/2025aa05072_assignment2_ml)")
     
     # Main content based on page selection
     if page == "Model Prediction":
@@ -460,7 +460,7 @@ def show_about_page():
     
     ### Resources
     
-    - GitHub: [github.com/jjayakrishnan/2025aa05072_ml_assignment2](https://github.com/jjayakrishnan/2025aa05072_ml_assignment2)
+    - GitHub: [github.com/jjayakrishnan/2025aa05072_assignment2_ml](https://github.com/jjayakrishnan/2025aa05072_assignment2_ml)
     - Dataset: [UCI Bank Marketing](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
     
     ---
