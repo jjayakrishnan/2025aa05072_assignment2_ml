@@ -256,10 +256,29 @@ def show_prediction_page():
         help="Upload a CSV file with the same format as the training data"
     )
     
-    # Sample data option
-    col1, col2 = st.columns([3, 1])
+    
+    # Sample data option with download
+    st.markdown("**Or use sample data:**")
+    col1, col2, col3 = st.columns([2, 1, 1])
+    
+    with col1:
+        st.caption("Download sample data to see the expected format, or use it directly for testing")
+    
     with col2:
-        if st.button("Use Sample Data"):
+        # Download sample data button
+        if os.path.exists('data/sample_test.csv'):
+            sample_df = pd.read_csv('data/sample_test.csv')
+            csv_sample = sample_df.to_csv(index=False)
+            st.download_button(
+                label="📥 Download Sample",
+                data=csv_sample,
+                file_name="sample_test_data.csv",
+                mime="text/csv",
+                help="Download sample test data to see the expected format"
+            )
+    
+    with col3:
+        if st.button("✅ Use Sample Data"):
             uploaded_file = "sample"
     
     if uploaded_file is not None:
