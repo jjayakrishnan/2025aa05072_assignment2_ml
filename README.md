@@ -128,8 +128,8 @@ Predict whether a client will subscribe to a term deposit (yes/no) based on demo
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/jjayakrishnan/2025aa05072_ml_assignment2.git
-   cd 2025aa05072_ml_assignment2
+   git clone https://github.com/jjayakrishnan/2025aa05072_assignment2_ml.git
+   cd 2025aa05072_assignment2_ml
    ```
 
 2. **Create virtual environment (recommended)**
@@ -191,7 +191,7 @@ The app will open in your browser at `http://localhost:8501`
 ##  Project Structure
 
 ```
-2025aa05072_ml_assignment2/
+2025aa05072_assignment2_ml/
 ├── app.py                              # Streamlit web application
 ├── requirements.txt                    # Python dependencies
 ├── README.md                          # Project documentation
@@ -306,7 +306,7 @@ All models are evaluated using 6 comprehensive metrics:
 
 ### GitHub Repository
 
-**URL:** [https://github.com/jjayakrishnan/2025aa05072_ml_assignment2](https://github.com/jjayakrishnan/2025aa05072_ml_assignment2)
+**URL:** [https://github.com/jjayakrishnan/2025aa05072_assignment2_ml](https://github.com/jjayakrishnan/2025aa05072_assignment2_ml)
 
 ### Streamlit Community Cloud
 
@@ -320,7 +320,7 @@ All models are evaluated using 6 comprehensive metrics:
    git add .
    git commit -m "Initial commit: ML Assignment 2"
    git branch -M main
-   git remote add origin https://github.com/jjayakrishnan/2025aa05072_ml_assignment2.git
+   git remote add origin https://github.com/jjayakrishnan/2025aa05072_assignment2_ml.git
    git push -u origin main
    ```
 
